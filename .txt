@@ -1,0 +1,32 @@
+W12C: HTTP Request Types
+Due Saturday by 11:59pm Points 1 Submitting a website url
+We have really powered up our Axios ability with the new kinds of request types available to us. We can now play around with test API services like https://jsonplaceholder.typicode.com/guide/ Links to an external site. 
+
+This is a service that allows you to try out learning things like POST, PATCH, DELETE and GET requests in a fake environment.
+
+ 
+
+Setup a GitHub repository and local git repository
+Setup the index.html to link to your app.js file and do the following:
+Make a POST request that creates a "post"
+https://jsonplaceholder.typicode.com/posts Links to an external site.is the endpoint for this action
+There should be a form with a button that allows users to type in their post and click send
+If it succeeds, the user should be shown a success message
+Make a PATCH request that updates a "post"
+https://jsonplaceholder.typicode.com/posts/1 Links to an external site.is an example endpoint for this action
+This request can simply happen when the page loads (or on a button press if you're feeling fancy)
+If it succeeds, add a success message onto the page.
+Make a DELETE request that deletes a "post"
+https://jsonplaceholder.typicode.com/posts/1 Links to an external site.is an example endpoint for this action
+This request can simply happen when the page loads (or on a button press if you're feeling fancy)
+If it succeeds, add a success message onto the page.
+Make a GET request that grabs all "posts"
+https://jsonplaceholder.typicode.com/posts Links to an external site.is the endpoint for this action
+This request should happen automatically when the page loads
+If it succeeds, all the posts should display on the page somehow (think loop)
+BONUS:
+Each post also has "comments" related to it. Read the API docs and for each post, also display the comments for that post.
+Add for request success, loading, and failure messages to the user when appropriate.
+ 
+
+Add, Commit, and Push all your changes to GitHub when you finish.
